@@ -1,0 +1,66 @@
+# Generated experiment results
+/outputs/
+/logs/
+/checkpoints/
+/runs/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Trained models and serialized artifacts
+/models/
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.catboost
+*.cbm
+*.lgb
+*.xgb
+
+# Raw/local datasets and large tabular exports
+/data/
+/datasets/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.jupyter/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
